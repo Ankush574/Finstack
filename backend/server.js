@@ -3,7 +3,7 @@ const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const dotenv = require('dotenv'); // dotenv ko import kiya
-const connectDB = require('./config/db'); // Database connection function ko import kiya
+const connectDB = require('./src/config/db'); // Database connection function ko import kiya
 const Transaction = require('./models/Transaction'); // Transaction model ko import kiya
 const Category = require('./models/Category'); // Category model ko import kiya
 
